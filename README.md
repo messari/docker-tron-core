@@ -15,7 +15,7 @@ Tron Core is the Tron Blockchain reference client and contains all the protocol 
 ## Usage
 
 ```
-docker run -p18888:18888 -p8090:8090 -e TRON_DATA=/data -v $(pwd)/data:/data --rm tron
+docker run -p18888:18888 -p8090:8090 -e TRON_DATA=/data -v $(pwd)/data:/data --rm messari/tron-core:latest
 ```
 
 #### Mainnet
