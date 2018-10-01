@@ -30,6 +30,8 @@ RUN set -o errexit -o nounset \
 
 RUN useradd -r tron
 
+RUN chown -R tron /java-tron
+
 WORKDIR /java-tron
 
 COPY docker-entrypoint.sh /entrypoint.sh
